@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-6-11, 1:04:20
+    Author     : Administrator
+*/
+/*D登录窗口*/
+.mask{
+    margin:0;
+    padding:0;
+    border:none;
+    width:100%;
+    height:100%;
+    background:#333;
+    opacity:0.5;
+    filter:alpha(opacity=60);
+    /*z-index:9999;*/
+    position:fixed;
+    top:0;
+    left:0;
+    display:none; }
+@media all and (min-width:1048px){
+#LoginBox{
+    position: fixed;
+    left:460px;
+    top:150px;
+    background:white;
+    width:426px;
+    height:282px;
+    border:3px solid #444;
+    border-radius:7px;
+    z-index:10000;
+    display:none;
+
+}
+}
+@media all and (min-width:800px) and (max-width:1047px){
+#LoginBox{
+    position: absolute;
+    left:300px;
+    top:150px;
+    background:white;
+    width:426px;
+    height:282px;
+    border:3px solid #444;
+    border-radius:7px;
+    z-index:10000;
+    display:none;
+
+}
+}
+@media all and (min-width:0px) and (max-width:799px){
+    #LoginBox{
+    position: fixed;
+    left:200px;
+    top:150px;
+    background:white;
+    width:426px;
+    height:282px;
+    border:3px solid #444;
+    border-radius:7px;
+    z-index:10000;
+    display:none;
+
+}
+}
+@media all and (min-width:1048px){
+    #div_register{
+    position:absolute;
+    left:460px;
+    top:150px;
+    background:white;
+    width:426px;
+    height:682px;
+    border:3px solid #444;
+    border-radius:7px;
+    z-index:10000;
+    display:none;
+    }
+}
+@media all and (min-width:800px) and (max-width:1047px){
+      #div_register{
+    position:absolute;
+    left:300px;
+    top:150px;
+    background:white;
+    width:426px;
+    height:682px;
+    border:3px solid #444;
+    border-radius:7px;
+    z-index:10000;
+    display:none;
+    }
+}
+@media (min-width:0px) and (max-width:799px){
+      #div_register{
+    position:absolute;
+    left:200px;
+    top:150px;
+    background:white;
+    width:426px;
+    height:682px;
+    border:3px solid #444;
+    border-radius:7px;
+    z-index:10000;
+    display:none;
+    }
+}
+.row1{
+    background:#f7f7f7;
+    padding:0px 0px;
+    line-height:22px;
+    height:50px;
+    font-weight:bold;
+    color:#666;
+    font-size:20px;
+}
+.row{
+    height:87px;
+    line-height:54px;
+    padding:0px 30px;
+    font-family:华文楷体;
+    font-size:x-large;
+}
+.close_btn{
+    font-family:arial;
+    font-size:30px;
+    font-weight:700;
+    color:#999;
+    text-decoration:none;
+    float:right;padding-right:4px;
+}
+.inputBox {
+    border:0px solid #c3c3c3;
+    padding:1px 3px 6px 3px;
+    border-radius:5px;margin-left:5px;
+}
+#txtName{
+    height:27px;
+    width:230px;
+    border:none;
+}
+#txtPwd{
+    height:27px;
+    width:230px;
+    border:none;
+}
+#btn_login{
+    color:White;
+    background:#4490f7;
+    text-decoration:none;
+    padding:10px 95px;
+    margin-left:87px;
+    margin-top:40px;
+    border-radius:5px;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+#zhucebtn{
+    color:White;
+    background:#4490f7;
+    text-decoration:none;
+    padding:10px 95px;
+    margin-left:87px;
+    margin-top:40px;
+    border-radius:5px;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+/*#example{position:fixed;left:390px;top:30px;color:White;background:#4490f7;text-decoration:none;padding:10px 95px;margin-left:87px;margin-top:40px;border-radius:5px;opacity:0.6;filter:alpha(opacity=60);}*/
+.warning{
+    float:right;
+    color:Red;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    margin-right:20px;
+    display:none;}
+
+@media screen and (min-width:1048px){
+    
+
+  .head{
+            width:1200px; height:90px; margin:auto; background:white;
+        }
+        .head>img{
+            margin-left: 10px;
+        }
+        .head>p{
+            font-size:32px; color:#0071E3; margin-left:120px;margin-top: -40px; line-height:12px;
+        }
+        .head>div{
+            width:350px; height:100px;float:right; overflow:hidden;margin-top: -100px;
+        }
+        .head>div>a>p{
+             line-height:50px; float:left;margin-right:30px;margin-top: 30px;
+        }
+        .flexslider{
+            position:relative;width: 1200px;margin: 20px auto; height:400px;overflow:hidden;background:url(images/loading.gif) 50% no-repeat;
+        }
+        .slides{
+            position:relative;z-index:1;
+        }
+        .slides li{
+            height:400px;
+        }
+        .flex-control-nav li{
+            display:inline-block;width:20px;height:14px;margin:0 5px;*display:inline;zoom:1;
+        }
+	.flex-control-nav a{
+            display:inline-block;width:20px;height:14px;line-height:40px;overflow:hidden;background:url(images/dot.png) right 0 no-repeat;cursor:pointer;
+        }
+}
+@media all and (min-width:800px) and (max-width:1047px){
+     .head{
+            width:800px; height:90px; margin:auto; background:white;
+        }
+        .head>img{
+            margin-left: 10px;
+        }
+        .head>p{
+            font-size:32px; color:#0071E3; margin-left:120px;margin-top: -40px; line-height:12px;
+        }
+        .head>div{
+            width:350px; height:100px;float:right; overflow:hidden;margin-top: -100px;
+        }
+        .head>div>a>p{
+             line-height:50px; float:left;margin-right:130px;margin-top: 30px;
+        }
+        .flexslider{
+            position:relative;width: 1000px;margin: 20px auto; height:400px;overflow:hidden;background:url(images/loading.gif) 50% no-repeat;
+        }
+        .slides{
+            position:relative;z-index:1;
+        }
+        .slides li{
+            height:400px;
+        }
+        .flex-control-nav li{
+            display:inline-block;width:20px;height:14px;margin:0 5px;*display:inline;zoom:1;
+        }
+	.flex-control-nav a{
+            display:inline-block;width:20px;height:14px;line-height:40px;overflow:hidden;background:url(images/dot.png) right 0 no-repeat;cursor:pointer;
+        }
+}
+@media all and (min-width:0px) and (max-width:799px){
+     .head{
+            width:200px; height:90px; margin:auto; background:white;
+        }
+        .head>img{
+            margin-left: -250px;
+        }
+        .head>p{
+            font-size:15px; color:#0071E3; margin-left:-120px;margin-top: -40px; line-height:12px;
+        }
+        .head>div{
+            width:124px; height:204px;overflow:hidden;margin-top: -100px;margin-right: 200px;
+        }
+        .head>div>a>p{
+             line-height:71px; margin-right:320px;margin-top: 15px;width:58px;height:47px;
+        }
+        .flexslider{
+            position:relative;width: 800px;margin: 20px auto; height:400px;overflow:hidden;background:url(images/loading.gif) 50% no-repeat;
+        }
+        .slides{
+            position:relative;z-index:1;
+        }
+        .slides li{
+            height:400px;
+        }
+        .flex-control-nav li{
+            display:inline-block;width:20px;height:14px;margin:0 5px;*display:inline;zoom:1;
+        }
+	.flex-control-nav a{
+            display:inline-block;width:20px;height:14px;line-height:40px;overflow:hidden;background:url(images/dot.png) right 0 no-repeat;cursor:pointer;
+        }
+}
